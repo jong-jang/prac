@@ -1,0 +1,340 @@
+/* clone1.css */
+ 
+.modal {
+  position:fixed; z-index: 2222;
+  top:0; left:0;
+  width:100%; height:100%;
+  background: rgba(0,0,0,0.8);
+}
+.modal_content{
+  position:absolute;
+  top:50%; transform: translateY(-50%); left:0; right:0;
+  margin:auto;
+  width:400px; height:300px;
+  padding:30px; box-sizing: border-box;
+  background-color: #fff;
+}
+.modal_content > div {
+  position:absolute;
+  top:0; right:0;
+  width:25px; height:25px;
+  border:1px solid #333;
+}
+.modal_content > div > button {
+  width:100%; height:100%;
+}
+
+#wrap {
+  width:100%; height:auto;
+}
+
+#headBox {
+  position: fixed; z-index: 1500;
+  top:0; left:0; right:0;
+  margin:auto;
+  width:100%; height:59px;
+  background-color: #fff;
+}
+.head_wrap {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width:1200px; height:59px;
+  margin:auto;
+}
+h1 {
+  width:100px; height:30px;
+  background-image: url('../../img/Toss-logo.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+.gnb_box {
+  display: flex;
+  gap:3rem;
+}
+.gnb_box li {
+  width:auto; height:30px;
+}
+.gnb_box li:nth-of-type(6) {
+  position: relative;
+  margin-left:4rem;
+}
+.gnb_box li:nth-of-type(6)::before {
+  position: absolute;
+  right:-1.5rem; top:10%;
+  content: "";
+  display: block;
+  width:2px; height:50%;
+  background-color: #ccc;
+}
+.lang.act {
+  color:#ccc;
+}
+/* -------------------------------------- */
+#viewBox {
+  width:100%; height:auto;
+}
+.view_top {
+  width:100%; height:auto;
+}
+.img {
+  width:100%; height:1000px;
+  background-image: url("../../img/toss-im-web-intro-still-start.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.img2 {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(180deg, white 0%, white 59px, rgba(255, 255, 255, 0) 100%);
+}
+.text {
+  position: absolute;
+  top: 10rem; left:50%; transform: translateX(-50%);
+  text-align: center;
+}
+.text p {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 3rem;
+}
+.text button {
+  width:160px; height:65px;
+  background-color: #3182F6;
+  border-radius:50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color:#fff;
+}
+.vibtn {
+  position: absolute;
+  bottom:10%; left:50%; transform: translateX(-50%);
+  width:50px; height:50px;
+  animation: armove 1000ms linear infinite;
+}
+.vibtn button {
+  width:100%; height:100%;
+  font-size: 3rem;
+  color:#777;
+}
+@keyframes armove {
+  0% {
+    opacity: 0;
+    bottom:12%;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.view_bot {
+  width:100%; height:203px;
+  padding:200px 0;
+  text-align: center;
+  background-color: #F8F8FF;
+}
+.view_bot p {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+/* -----con01------------------------------ */
+#con01 {
+  width:100%; height:auto;
+  padding:100px 300px; box-sizing: border-box;
+}
+.con_01 {
+  width:100%; height:1400px;
+}
+.con_01_left {
+  float:left;
+  width:50%; height:100%;
+}
+.con_01_left p:first-of-type {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color:#3182F6;
+  margin-bottom: 2rem;
+}
+.con_01_left p:last-of-type {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 6rem;
+}
+.con_01_left div {
+  width:500px; height:900px;
+}
+.con_01_left div div {
+  position: relative;
+  width:100%; height:100%;
+  background-image: url("../../img/sc02-1.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.con_01_left div div div {
+  position: absolute;
+  left:50%; top:50%; transform: translate(-50%, -50%);
+  width:62%; height:72%;
+  background-image: url("../../img/sc02.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+.con_01_right {
+  float:right;
+  width:50%; height:100%;
+}
+.con_01_right div {
+  width:500px; height:900px;
+}
+.con_01_right div div {
+  position: relative;
+  width:100%; height:100%;
+  background-image: url("../../img/sc01-1.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.con_01_right div div div {
+  position: absolute;
+  left:50%; top:50%; transform: translate(-50%, -50%);
+  width:62%; height:72%;
+  background-image: url("../../img/sc01.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+.con_01_right p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.5;
+  padding:3rem 0 0 3rem; box-sizing: border-box;
+}
+/* ----------------con2----------------- */
+#con02 {
+  width:100%; height:auto;
+  padding:100px 350px; box-sizing: border-box;
+  background-color: #F8F8FF;
+}
+.con_02 {
+  width:100%; height:1500px;
+}
+.con_02_top {
+  width:100%; height:auto;
+}
+.con_02_top > p:first-of-type {
+  color:#3182F6;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.con_02_top > p:last-of-type {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 5rem;
+}
+.con_02_bot {
+  width:100%; height:auto;
+}
+.con_02_bot > div {
+  width:100%; height:500px;
+  border-radius: 2rem;
+  background-color: #fff;
+}
+.con02b_top {
+  position:relative;
+  overflow: hidden;
+}
+.con02b_top > div {
+  position: absolute;
+  width:50%; height:100%;
+  background-image: url("../../img/sc01-1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 0%;
+}
+.con02b_top > div > div {
+  position: absolute;
+  top:26%; left:50%; transform: translateX(-50%);
+  width:52%; height:72%;
+  background-image: url("../../img/sc02_1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 0%;
+}
+.con02b_top p {
+  position:absolute;
+  top:50%; left:50%; transform:translateY(-50%);
+  font-size: 1.7rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+.con02b_top p span{
+  color:#7c7;
+}
+.con_02_bot div:first-of-type {
+  margin-bottom: 2rem;
+}
+.con02b_bot {
+  position:relative;
+  overflow: hidden;
+}
+.con02b_bot div:first-of-type {
+  position: absolute;
+  top:0; left:0;
+  width:300px; height:100%;
+  border-radius: 2rem;
+  padding:2rem; box-sizing: border-box;
+  background-color: #191F28;
+}
+.con02b_bot div:first-of-type p{
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color:#B0B8C1;
+}
+.con02b_bot div:first-of-type p span {
+  color:#fff;
+}
+.con02b_bot div:last-of-type {
+  position: absolute;
+  right:0; top:-30%;
+  width:45%; height:100%;
+  background-image: url("../../img/sc02_3.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 100%;
+}
+.con02b_bot > p {
+  position: absolute;
+  bottom:3rem; left:50%; transform: translateX(-50%);
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.con02b_bot > p > span {
+  color:#3182F6;
+}
+/* --------con03------------------------ */
+#con03 {
+  width:100%; height:1300px;
+  padding:100px 350px; box-sizing: border-box;
+  background-color: #fff;
+}
+.con_03 {
+  width:100%; height:auto;
+}
+.con_03_left {
+  width:50%; height:auto;
+}
+.con_03_right {
+  width:50%; height:auto;
+}
