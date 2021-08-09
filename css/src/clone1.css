@@ -146,7 +146,7 @@ h1 {
 /* -----con01------------------------------ */
 #con01 {
   width:100%; height:auto;
-  padding:100px 300px; box-sizing: border-box;
+  padding:100px 350px; box-sizing: border-box;
 }
 .con_01 {
   width:100%; height:1400px;
@@ -325,7 +325,7 @@ h1 {
 }
 /* --------con03------------------------ */
 #con03 {
-  width:100%; height:1300px;
+  width:100%; height:1200px;
   padding:100px 350px; box-sizing: border-box;
   background-color: #fff;
 }
@@ -333,8 +333,234 @@ h1 {
   width:100%; height:auto;
 }
 .con_03_left {
+  float:left;
   width:50%; height:auto;
+}
+.con_03_left > p:nth-of-type(1) {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color:#3182F6;
+}
+.con_03_left > p:nth-of-type(2) {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 14rem;
+}
+.con_03_left > p:nth-of-type(3) {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+.con_03_left > p:nth-of-type(3) span:nth-of-type(2) {
+  color:#8B95A1;
+}
+.con_03_left > p:nth-of-type(3) span:nth-of-type(3) {
+  color:#D1D6DB;
+}
+
+.con_03_left > p:nth-of-type(4) {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.5;
 }
 .con_03_right {
-  width:50%; height:auto;
+  float:left;
+  position: relative;
+  width:50%; height:1000px;
 }
+.con_03_right > div {
+  position: absolute;
+  top:0; left:0;
+  width:100%;height:100%;
+  background-image: url("../../img/sc01-1.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.con_03_right > div > div {
+  position: absolute;
+  top:50%; left:50%; transform: translate(-50%, -50%);
+  width:50%; height:80%;
+  background-image: url("../../img/sc03.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+/* ----------------------con04-------------------- */
+#con04 {
+  width:100%; height:1700px;
+  padding:100px 350px; box-sizing: border-box;
+  background-color: #F8F8FF;
+}
+.con_04 {
+  width:100%; height:auto;
+}
+.con_04_top {
+  width:100%; height:auto;
+}
+.con_04_top > p:nth-of-type(1) {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color:#3182F6;
+}
+.con_04_top > p:nth-of-type(2) {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 6rem;
+}
+.con_04_mid {
+  position: relative;
+  width:100%; height:500px;
+  border-radius: 1.5rem;
+  margin-bottom: 2rem;
+  background-color: #191F28;
+}
+.con_04_mid > div {
+  position: absolute;
+  bottom: -1rem; right:10%;
+  width:40%; height:100%;
+  background-image: url("../../img/sc04.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+.con_04_mid > p {
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding:2rem; box-sizing: border-box;
+  color:#fff;
+}
+.con_04_mid > p span {
+  color: #B0B8C1;
+}
+.con_04_bot {
+  width:100%; height:500px;
+  border-radius: 1.5rem;
+}
+.con_04_bot_left {
+  float:left;
+  width:48%; height:100%;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.con_04_bot_left > p{
+  padding:2rem; box-sizing: border-box;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.con_04_bot_right {
+  position: relative;
+  float:right;
+  width:48%; height:100%;
+  border-radius: 20px;
+  background-color: #ADD1FF;
+}
+.con_04_bot_right > p{
+  padding:2rem; box-sizing: border-box;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.con_04_bot_right > div {
+  position: absolute;
+  bottom: 0; left:50%; transform: translateX(-50%);
+  width:80%; height:80%;
+  background-image: url("../../img/sc04-1.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: 100%;
+}
+/* --------------con05--------------------------- */
+#con05 {
+  width:100%; height:auto;
+  padding:200px 350px; box-sizing: border-box;
+  background-color: #fff;
+}
+.con_05 {
+  width:100%; height:auto;
+}
+.con_05_top {
+  width:100%; height:auto;
+}
+.con_05_top > p:nth-of-type(1){
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color:#3182F6;
+}
+.con_05_top > p:nth-of-type(2){
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.con_05_mid {
+  position: relative;
+  width:100%; height:1000px;
+}
+.con_05_mid > p:nth-of-type(1){
+  position: absolute;
+  top:30%; left:10%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.con_05_mid > p:nth-of-type(2){
+  position: absolute;
+  top:30%; right:10%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.con_05_mid > p:nth-of-type(3){
+  position: absolute;
+  bottom:0; left:50%; transform: translateX(-50%);
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+}
+.con_05_mid > div {
+  position:absolute; z-index: 5;
+  bottom:0; left:50%; transform: translateX(-50%);
+  width:50%; height:100%;
+  background-image: url("../../img/sc01-1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+.con_05_mid > div > div {
+  position:absolute; z-index: 2;
+  top:50%; left:50%; transform: translate(-50%, -50%);
+  width:55%; height:60%;
+  background-image: url("../../img/sc05.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+.con_05_mid > div > ul {
+  position:absolute; z-index: 2;
+  bottom:17%; left:-43%; 
+  width:1200px; height:auto;
+}
+.con_05_mid > div > ul > li {
+  width:150px; height:150px;
+  float:left;
+  margin-right: 1rem;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+.con_05_mid > div > ul > li:nth-of-type(1) {background-image: url("../../img/sc05-01.png");}
+.con_05_mid > div > ul > li:nth-of-type(2) {background-image: url("../../img/sc05-02.png");}
+.con_05_mid > div > ul > li:nth-of-type(3) {background-image: url("../../img/sc05-03.png");}
+.con_05_mid > div > ul > li:nth-of-type(4) {background-image: url("../../img/sc05-04.png");}
+.con_05_mid > div > ul > li:nth-of-type(5) {background-image: url("../../img/sc05-05.png");}
+.con_05_mid > div > ul > li:nth-of-type(6) {background-image: url("../../img/sc05-06.png");}
+.con_05_mid > div > ul > li:nth-of-type(7) {background-image: url("../../img/sc05-07.png");}
