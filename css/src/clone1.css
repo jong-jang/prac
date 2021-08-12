@@ -56,6 +56,13 @@ h1 {
 .gnb_box li {
   width:auto; height:30px;
 }
+.gnb_box li a {
+  width:auto; height:100%;
+}
+.gnb_box li:hover {
+  border-radius: 10px;
+  background-color: #ddd;
+}
 .gnb_box li:nth-of-type(6) {
   position: relative;
   margin-left:4rem;
@@ -632,6 +639,7 @@ h1 {
   margin:auto;
   margin-bottom: 5rem;
   background-color: #aaa;
+  opacity: 0;
 }
 .con_07_mid {
   width:100%; height:auto;
